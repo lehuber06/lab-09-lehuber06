@@ -148,7 +148,9 @@ while True:
     else:
         break
 
-print(f"Orders made: {pizzaria.orders}\n{pizzaria.pizzas}")
+print(f"Orders made: {pizzaria.orders}")
+for pizza in pizzaria.pizzas:
+    print(pizza)
 
 # - Declare your pizzeria object.
 # - Enter a while loop to ask if the user wants to order a pizza.
